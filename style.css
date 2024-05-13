@@ -117,19 +117,19 @@ body {
 
 
 .info-titulo {
-    flex: 1; /* Ajusta el tamaño del elemento */
+    flex: 1; 
     font-weight: bold;
-    color: white; /* Texto gris */
-    text-align: left; /* Alinea el texto a la izquierda */
-    margin-left: auto; /* Aumenta el margen izquierdo */
-    margin-right: auto; /* Aumenta el margen derecho */
+    color: white; 
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .info-dato {
-    flex: 1; /* Ajusta el tamaño del elemento */
+    flex: 1; 
     color: #fff; 
-    text-align: left; /* Alinea el texto a la izquierda */
-    margin-right: auto; /* Aumenta el margen derecho */
+    text-align: left; 
+    margin-right: auto; 
 }
 
 
