@@ -28,7 +28,6 @@ function mostrarTabla(dia) {
   } else {
     recomendacion.classList.remove('active');
   }
-
   // Hacer scroll al contenido
   if (!infoPersonal.classList.contains('active') && !recomendacion.classList.contains('active')) {
     tablaDia.scrollIntoView({ behavior: 'smooth' });
@@ -59,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menu.classList.toggle('active');
   }
   var temporizadorentreejercicios;
-  var tiempoLimite = 10 * 60 * 1000; // 8 minutos en milisegundos
+  var tiempoLimite = 10 * 60 * 1000; 
   
   function marcarEjercicio(id) {
       clearTimeout(temporizadorentreejercicios); // Reiniciar el temporizadorentreejercicios cada vez que se marque un ejercicio
